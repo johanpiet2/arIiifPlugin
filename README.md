@@ -11,7 +11,6 @@ A comprehensive IIIF (International Image Interoperability Framework) plugin for
   <img src="https://img.shields.io/badge/PHP-8.3+-green" />
   <img src="https://img.shields.io/badge/Platform-Ubuntu%2024.04-orange" />
   <img src="https://img.shields.io/badge/License-AGPLv3-red" />
-  <img src="https://img.shields.io/badge/IIIF-Image-Viewer-purple" />
   <img src="https://img.shields.io/badge/Maintainer-Johan%20Pieterse-lightgrey" />
 </p>
 
