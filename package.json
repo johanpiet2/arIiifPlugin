@@ -1,0 +1,35 @@
+{
+  "name": "ariifplugin",
+  "version": "1.0.0",
+  "description": "IIIF Integration Plugin for AtoM (Access to Memory)",
+  "main": "js/iiif-carousel.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "download-openseadragon": "curl -L https://github.com/openseadragon/openseadragon/releases/download/v3.1.0/openseadragon-bin-3.1.0.zip -o vendor/osd.zip && unzip -o vendor/osd.zip -d vendor/openseadragon && rm vendor/osd.zip"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/arIiifPlugin.git"
+  },
+  "keywords": [
+    "iiif",
+    "atom",
+    "archival",
+    "openseadragon",
+    "cantaloupe",
+    "image-viewer",
+    "deep-zoom"
+  ],
+  "author": "Johan Pieterse <johan@theahg.co.za>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/yourusername/arIiifPlugin/issues"
+  },
+  "homepage": "https://github.com/yourusername/arIiifPlugin#readme",
+  "dependencies": {
+    "openseadragon": "^3.1.0"
+  },
+  "engines": {
+    "php": ">=7.2.0"
+  }
+}
