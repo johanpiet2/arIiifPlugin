@@ -75,6 +75,20 @@ all:
   iiif_base_url: https://yourdomain.com/iiif/2
 ```
 
+### 4. Enable the Plugin
+
+Add to your AtoM configuration file (`config/ProjectConfiguration.class.php`):
+
+```php
+public function setup()
+{
+  $this->enablePlugins(array(
+    // ... other plugins
+    'arIiifPlugin'
+  ));
+}
+```
+
 ## Usage
 
 ### Basic Viewer
