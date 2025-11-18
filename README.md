@@ -2,6 +2,21 @@
 
 A comprehensive IIIF (International Image Interoperability Framework) plugin for AtoM (Access to Memory) that provides deep zoom image viewing capabilities using OpenSeadragon and Cantaloupe image server integration.
 
+---
+
+## 📛 Status & Compatibility
+
+<p align="left">
+  <img src="https://img.shields.io/badge/AtoM-2.9.x-blue" />
+  <img src="https://img.shields.io/badge/PHP-8.3+-green" />
+  <img src="https://img.shields.io/badge/Platform-Ubuntu%2024.04-orange" />
+  <img src="https://img.shields.io/badge/License-AGPLv3-red" />
+  <img src="https://img.shields.io/badge/IIIF-Image-Viewer-purple" />
+  <img src="https://img.shields.io/badge/Maintainer-Johan%20Pieterse-lightgrey" />
+</p>
+
+---
+
 ## Features
 
 - **IIIF Image Viewer**: OpenSeadragon-based viewer with deep zoom capabilities
